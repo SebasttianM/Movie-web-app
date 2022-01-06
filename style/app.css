@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+
+body{
+    font-family:'Space Mono';
+    overflow:hidden;
+}
+
+#menu a{
+    font-size: 1rem;
+    color: darkorange;
+    display: flex;
+    font-weight: 500;
+    cursor: pointer;
+   
+}
+
+.carousel-item img{
+    height: 85vh;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+#camera{
+    color: gold;
+    color-scheme:initial;
+   
+}
