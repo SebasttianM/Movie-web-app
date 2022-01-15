@@ -1,29 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cute+Font&display=swap");
 
-body{
-    font-family:'Space Mono';
-    overflow:hidden;
+body {
+  font-family: "Space Mono";
+  overflow: hidden;
 }
 
-#menu a{
-    font-size: 1rem;
-    color: darkorange;
-    display: flex;
-    font-weight: 500;
-    cursor: pointer;
-   
+#menu a {
+  font-size: 1rem;
+  color: darkorange;
+  display: flex;
+  font-weight: 500;
+  cursor: pointer;
 }
 
-.carousel-item img{
-    height: 85vh;
-    width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
-    
+#menuform a {
+  font-size: 1rem;
+  color: darkorange;
+  display: flex;
+  font-weight: 500;
+  cursor: pointer;
 }
-#camera{
-    color: gold;
-    color-scheme:initial;
-   
+.divform {
+  font-family: "Space Mono";
+}
+.carousel-item img {
+  height: 45vh;
+  width: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  padding-left: 20px;
+}
+#camera {
+  color: gold;
+  color-scheme: initial;
+}
+.card {
+  min-width: 100px;
+  flex-wrap: initial;
+}
+
+.img3{
+  width: 180px;
+  height: 180px;
 }
