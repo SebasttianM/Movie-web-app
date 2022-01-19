@@ -1,7 +1,7 @@
 
 import {movies} from "./movies.js";
 
-let contenedorCard = document.querySelector(".contenedor-card");
+let contenedorCard = document.querySelector("#contenedor-card");
 const items = document.getElementById('items')
 const templateCard = document.getElementById('template-card').content;
 const fragment = document.createDocumentFragment();
@@ -26,8 +26,9 @@ items.addEventListener('click', (e) => {
     if (e.target.classList.contains('btn')) {
 
         let peliculas = (e.srcElement.id);
+       
 
-        data.forEach(item => {
+        movies.forEach(item => {
             const { id, Name, Image, Description } = item;
 
             if (peliculas == id) {

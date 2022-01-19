@@ -78,7 +78,7 @@
 
 
 const div= document.querySelector('div').content;
-const film= document.querySelector('film');
+const film= document.querySelector('.film');
 const fragment=document.createDocumentFragment();
 
 movies.forEach(movie =>{
